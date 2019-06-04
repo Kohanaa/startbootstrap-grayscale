@@ -1,0 +1,27 @@
+.monster {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  transition: all 0.2s;
+  background-size: cover;
+  background-image: url(http://pngriver.com/wp-content/uploads/2018/04/Download-Blue-Monster-PNG-HD-For-Designing-Projects.png);
+}
+
+.fired {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  transition: all 0.2s;
+  background-size: cover;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVAvVwTgTH6v5CubkChCzLRKhM2JVM7Txt3V8c6rk9gU4uZeYD);
+}
+
+.ork {
+  position: absolute;
+  width: 48px;
+  height: 64px;
+  background-image: url(../img/troll-darkgreen.png);
+  background-position: -48px -64px;
+  transform: translate(-50%, -50%);
+  transition: left 0.04s, top 0.04s;
+}
