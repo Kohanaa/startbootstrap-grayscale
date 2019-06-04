@@ -166,6 +166,11 @@
   background-color: #b3b300 !important;
 }
 
+#games {
+  padding: 15px;
+  background-image: url(https://www.surfertoday.com/images/stories/beachquotes.jpg);
+}
+
 #stage {
   width: 700px;
   height: 400px;
@@ -173,6 +178,7 @@
   position: relative;
   background-image: url(../img/preview.jpg);
   overflow: hidden;
+  margin: 10px auto;
 }
 
 .base {
@@ -225,6 +231,20 @@
   transform: translate(-50%, -50%);
   -webkit-transition: left 0.04s, top 0.04s;
   transition: left 0.04s, top 0.04s;
+}
+
+#orcs h2 {
+  text-align: center;
+}
+
+#orcs img {
+  margin: 10px auto;
+  display: block;
+}
+
+#orcs button {
+  margin: 0  auto;
+  display: block;
 }
 
 .about-section {
