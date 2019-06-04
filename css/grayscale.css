@@ -6,14 +6,14 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: yellow;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: yellow;
+  border: 1px solid yellow;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -48,22 +48,22 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 0, 0.5);
   }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 0, 0.5);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 0, 0.75);
   }
   #mainNav .nav-link:active {
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: yellow;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
@@ -74,15 +74,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: yellow;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #b3b300;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: yellow;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid yellow;
   }
 }
 
@@ -92,8 +92,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-summer.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-summer.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -150,20 +150,20 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: yellow;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #cccc00;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #cccc00;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #b3b300 !important;
 }
 
 .about-section {
@@ -187,7 +187,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid yellow;
   }
 }
 
@@ -201,7 +201,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: yellow;
     border-width: .25rem;
     width: 30%;
   }
@@ -235,7 +235,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid yellow;
 }
 
 .contact-section .card h4 {
@@ -246,7 +246,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: yellow;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -259,18 +259,18 @@
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 0, 0.1);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 0, 0.3);
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 0, 0.5);
 }
 
 .contact-section .social a:active {
-  color: #fff;
+  color: yellow;
 }
 
 body {
@@ -279,12 +279,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: yellow;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #999900;
 }
 
 .bg-black {
@@ -292,11 +292,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: yellow !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: yellow !important;
 }
 
 footer {
