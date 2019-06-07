@@ -6,14 +6,14 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: yellow;
+  background-color: white;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: yellow;
-  border: 1px solid yellow;
+  color: green;
+  border: 1px solid green;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -48,22 +48,22 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 0, 0.75);
+    color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link:active {
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: yellow;
+    background-color: white;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
@@ -74,15 +74,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: yellow;
+    color: green;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #b3b300;
+    color: #003400;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: yellow;
+    color: green;
     outline: none;
-    border-bottom: 0.25rem solid yellow;
+    border-bottom: 0.25rem solid green;
   }
 }
 
@@ -150,25 +150,25 @@
 }
 
 .btn-primary {
-  background-color: yellow;
+  background-color: green;
 }
 
 .btn-primary:hover {
-  background-color: #cccc00;
+  background-color: #004d00;
 }
 
 .btn-primary:focus {
-  background-color: #cccc00;
+  background-color: #004d00;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #b3b300 !important;
+  background-color: #003400 !important;
 }
 
 #games {
   padding: 15px;
-  background-image: url(https://www.surfertoday.com/images/stories/beachquotes.jpg);
+  background-image: url(http://sita.in/wp-content/uploads/2018/06/black-bg.gif);
 }
 
 #stage {
@@ -233,6 +233,10 @@
   transition: left 0.04s, top 0.04s;
 }
 
+#orcs {
+  background-image: url(http://sita.in/wp-content/uploads/2018/06/black-bg.gif);
+}
+
 #orcs h2 {
   text-align: center;
 }
@@ -268,7 +272,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid yellow;
+    border-left: 0.5rem solid green;
   }
 }
 
@@ -282,7 +286,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: yellow;
+    border-color: green;
     border-width: .25rem;
     width: 30%;
   }
@@ -316,7 +320,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid yellow;
+  border-bottom: 0.25rem solid green;
 }
 
 .contact-section .card h4 {
@@ -327,7 +331,7 @@
 }
 
 .contact-section .card hr {
-  border-color: yellow;
+  border-color: green;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -340,18 +344,18 @@
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 0, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 0, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .contact-section .social a:active {
-  color: yellow;
+  color: white;
 }
 
 body {
@@ -360,12 +364,12 @@ body {
 }
 
 a {
-  color: yellow;
+  color: green;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #999900;
+  color: #001a00;
 }
 
 .bg-black {
@@ -373,11 +377,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: yellow !important;
+  background-color: green !important;
 }
 
 .text-primary {
-  color: yellow !important;
+  color: green !important;
 }
 
 footer {
