@@ -45,17 +45,17 @@ function Ork(id, game, x, y) {
   el.setAttribute('id', id);
   el.setAttribute('class', 'ork');
   stageEl.appendChild(el);
-  
+
   // сохраняем переменную this под другим названием,
   // чтобы обращаться в других функциях
   var me = this;
 
   // константы для положений орка (по аналогии с прежней переменной frameY)
-  const RIGHT = 1;
-  const LEFT = 3;
-  const DOWN = 2;
-  const UP = 0;
-  
+  var RIGHT = 1;
+  var LEFT = 3;
+  var DOWN = 2;
+  var UP = 0;
+
   // коды клавиш, соответствующие направлению орка
   this.keys = {
     'ArrowRight': RIGHT,
@@ -67,15 +67,15 @@ function Ork(id, game, x, y) {
   // по умолчанию орк смотрит вправо
   var direction = RIGHT;
   // количество пикселей на один шаг
-  var movePx = 10; 
-  
+  var movePx = 10;
+
   // координаты
   this.x = x;
   this.y = y;
-  
+
   // изначально нет цели, куда идти
   var target = null;
-  
+
   // функция установки цели
   this.setTarget = function(targetBuilding) {
     target = {
@@ -83,7 +83,7 @@ function Ork(id, game, x, y) {
       y: targetBuilding.y
     }
   }
-  
+
   // функция поворота орка
   this.turn = function(nextDirection) {
     direction = nextDirection;
@@ -107,7 +107,7 @@ function Ork(id, game, x, y) {
         target = null;
       }
     }
-  
+
     switch(direction) {
       case RIGHT:
         me.x += movePx;
