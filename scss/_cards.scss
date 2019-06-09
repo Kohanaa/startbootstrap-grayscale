@@ -1,7 +1,13 @@
 #cards{
   background-image: url(http://sita.in/wp-content/uploads/2018/06/black-bg.gif);
-  img{
-    margin:10px auto;
-    display: block;
+  .img{
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    img{
+      position: absolute;
+      top:50%;
+      transform: translateY(-50%);
+    }
   }
 }
